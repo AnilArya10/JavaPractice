@@ -4,7 +4,8 @@ public static void main(String args[]){
 
    int a=10;
    int b=20;
-   byte c=(byte)(a+b);                   //explicite conversion
+  // byte c=a+b;
+   byte c=(byte)(a+b);  //explicite conversion
    
    
    System.out.println(c);
